@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f7f7f7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li, a {
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 1%;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    margin-left: 230px;
+}
+  
+.nav_links li {
+    padding: 0px 20px;
+}
+  
+.nav_links li a {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+  
+.nav_links li a:hover {
+    font-size: 28px;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-page {
+    font-size: 70px;
+    color: red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.profile {
+    margin-right: 20px;
+}
+
+.profile img {
+    max-width: 400px; 
+    width: 400px; 
+    border-radius: 20%; 
+}
+
+.description {
+    margin-left: 200px; 
+}
+
+.description h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    max-width: 600px;
+    font-size: 30px;
+    line-height: 2;
+    color: black;
+    text-align: justify;
+}
+
+html.overflow-hidden {
+    overflow: hidden;
+}
+
+.artifact-heading {
+    margin: 50px;
+}
+
+.desc-artifact {
+    margin-left: 150px;
+}
+
+.desc-artifact a {
+    color: black;
+    font-size: 18px;
+}
+
+.artifacts-container {
+    margin-top: 20px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.artifacts-img {
+    max-width: 400px; 
+    margin-right: 10px; 
+}
+
+.video-container {
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.desc-course {
+    line-height: 2;
+    max-width: 1000px;
+    text-align: justify;
+    margin-left: 150px;
+}
